@@ -1,28 +1,38 @@
-
-<!DOCTYPE html> <!--dit is de homepage van mijn website-->
-<html> <!--dit is mijn html element-->
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <link rel="stylesheet" type="text/ss" href="opmaak.css">
+  <link rel="stylesheet" type="text/css" href="opmaak.css">
 </head>
 <body>
-
-<header class="header-main">
-  <div class="header-main-logo">
-    <img src="Home button.png" alt="Home button">
-    <nav class="header-main-nav">
+  <div id="header">
+    <nav id="top-nav">
       <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="binairstelsel.html">Binair Stelsel</a></li>
-        <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#binairstelsel">Binairstelsel</a></li>
+        <li><a href="#kleurmodellen">Kleurmodellen</a></li>
       </ul>
     </nav>
   </div>
-  
-<div class="header-main-sm"> </div>
-</header>
 
-  </body>
+  <div id="content">
+    <!-- Inhoud van de pagina wordt hier dynamisch geladen -->
+    <div id="home">
+      <h1>Welkom op de Homepagina</h1>
+      <p>Dit is de inhoud van de homepagina. Dit is een test zin.</p>
+    </div>
+
+    <div id="binairstelsel">
+      <h1>Binairstelsel</h1>
+      <p>Dit is de inhoud van de sectie over het binairstelsel. Voeg hier je eigen tekst toe.</p>
+    </div>
+
+    <div id="kleurmodellen">
+      <h1>Kleurmodellen</h1>
+      <p>Dit is de inhoud van de sectie over kleurmodellen. Voeg hier je eigen tekst toe.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
