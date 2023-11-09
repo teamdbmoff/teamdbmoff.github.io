@@ -25,7 +25,7 @@ function loadContent(section) {
 
          } else if (section === 'Aboutme') {
       contentDiv.innerHTML = `
-        <div id="aboutme">
+        <div id="Aboutme">
           <h1>About Me</h1>
           <p>Dit is de inhoud van de sectie over het about me. Ik ben Maarten..</p>
         </div>
