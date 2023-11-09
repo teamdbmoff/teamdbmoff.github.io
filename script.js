@@ -22,6 +22,14 @@ function loadContent(section) {
           <p>Dit is de inhoud van de sectie over kleurmodellen. Voeg hier je eigen tekst toe.</p>
         </div>
       `;
+
+         } else if (section === 'Aboutme') {
+      contentDiv.innerHTML = `
+        <div id="aboutme">
+          <h1>About Me</h1>
+          <p>Dit is de inhoud van de sectie over het about me. Ik ben Maarten..</p>
+        </div>
+      `;
     }
   }
   
