@@ -8,6 +8,15 @@ function loadContent(section) {
           <p>Dit is de inhoud van de homepagina.Voeg hier je eigen tekst toe.</p>
         </div>
       `;
+
+        } else if (section === 'Aboutme') {
+      contentDiv.innerHTML = `
+        <div id="Aboutme">
+          <h1>About Me</h1>
+          <p>Dit is de inhoud van de sectie over het about me. Ik ben Maarten..</p>
+        </div>
+      `;
+        
     } else if (section === 'binairstelsel') {
       contentDiv.innerHTML = `
         <div id="binairstelsel">
@@ -23,13 +32,6 @@ function loadContent(section) {
         </div>
       `;
 
-         } else if (section === 'Aboutme') {
-      contentDiv.innerHTML = `
-        <div id="Aboutme">
-          <h1>About Me</h1>
-          <p>Dit is de inhoud van de sectie over het about me. Ik ben Maarten..</p>
-        </div>
-      `;
     }
   }
   
