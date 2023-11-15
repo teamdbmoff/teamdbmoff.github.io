@@ -13,9 +13,7 @@ function loadContent(section) {
       contentDiv.innerHTML = `
         <div id="Aboutme">
           <h1>About Me</h1>
-          <article>Dit is de inhoud van de sectie over het Aboutme. 
-              Hallo mijn naam is Maarten en leuk dat je op mijn website kijkt.
-          Momenteel zit ik op school bij het clv. Mijn hobbies zijn gamen en chillen met vrienden.</article>
+          <article> Dit is de inhoud van de sectie over het Aboutme. Hallo mijn naam is Maarten en leuk dat je op mijn website kijkt. Momenteel zit ik op school bij het clv. Mijn hobbies zijn gamen en chillen met vrienden.</article>
         </div>
       `;
         
