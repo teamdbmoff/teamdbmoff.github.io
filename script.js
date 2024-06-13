@@ -41,9 +41,9 @@ function loadContent(section) {
       `;
 if (section === 'werkingcomputer') {
       contentDiv.innerHTML = `
-        <div id="home">
+        <div id="werkingcomputer">
           <h1>Welkom op de Homepagina</h1>
-          <p>Dit is de inhoud van de homepagina.Voeg hier je eigen tekst toe.</p>
+          <p>Dit is de inhoud van de werkingcomputer.Voeg hier je eigen tekst toe.</p>
         </div>
     }
   }
