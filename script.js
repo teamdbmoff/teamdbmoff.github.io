@@ -45,6 +45,14 @@ if (section === 'werkingcomputer') {
           <h1>Welkom op de Homepagina</h1>
           <p>Dit is de inhoud van de werkingcomputer.Voeg hier je eigen tekst toe.</p>
         </div>
+ `;
+         } else if (section === 'compressietechnieken') {
+      contentDiv.innerHTML = `
+        <div id="compressietechnieken">
+          <h1>About Me</h1>
+          <article> Dit is de inhoud van de werkingcomputer. Voeg hier je eigen tekst toe. </article>
+        </div>
+      
     }
   }
   
