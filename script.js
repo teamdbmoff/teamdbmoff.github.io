@@ -52,7 +52,7 @@ if (section === 'werkingcomputer') {
           <h1>About Me</h1>
           <article> Dit is de inhoud van de werkingcomputer. Voeg hier je eigen tekst toe. </article>
         </div>
-      
+       `;
     }
   }
   
