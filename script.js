@@ -39,7 +39,7 @@ function loadContent(section) {
           <p>Dit is de inhoud van de sectie over kleurmodellen. Voeg hier je eigen tekst toe.</p>
         </div>
       `;
-if (section === 'werkingcomputer') {
+    } else if (section === 'werkingcomputer') {
       contentDiv.innerHTML = `
         <div id="werkingcomputer">
           <h1>Welkom op de Homepagina</h1>
@@ -52,7 +52,7 @@ if (section === 'werkingcomputer') {
           <h1>About Me</h1>
           <article> Dit is de inhoud van de werkingcomputer. Voeg hier je eigen tekst toe. </article>
         </div>
-       `;
+       
     }
   }
   
